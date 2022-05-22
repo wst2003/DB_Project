@@ -1,0 +1,11 @@
+D:\源代码\DB_project\DB_project\obj\Debug\DB_project.csproj.AssemblyReference.cache
+D:\源代码\DB_project\DB_project\obj\Debug\DB_project.csproj.SuggestedBindingRedirects.cache
+D:\源代码\DB_project\DB_project\obj\Debug\DB_project.Main.resources
+D:\源代码\DB_project\DB_project\obj\Debug\DB_project.Properties.Resources.resources
+D:\源代码\DB_project\DB_project\obj\Debug\DB_project.csproj.GenerateResource.cache
+D:\源代码\DB_project\DB_project\obj\Debug\DB_project.csproj.CoreCompileInputs.cache
+D:\源代码\DB_project\DB_project\bin\Debug\DB_project.exe.config
+D:\源代码\DB_project\DB_project\bin\Debug\DB_project.exe
+D:\源代码\DB_project\DB_project\bin\Debug\DB_project.pdb
+D:\源代码\DB_project\DB_project\obj\Debug\DB_project.exe
+D:\源代码\DB_project\DB_project\obj\Debug\DB_project.pdb
