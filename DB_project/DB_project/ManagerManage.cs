@@ -10,33 +10,34 @@ using System.Windows.Forms;
 
 namespace DB_project
 {
-    public partial class Main : Form
+    public partial class ManagerManage : Form
     {
-        public Main()
+        public ManagerManage()
         {
             InitializeComponent();
         }
 
-        //刘琦部分
-        private void ManagerLogin_Click(object sender, EventArgs e)
+        private void 订单管理ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ManagerLogin frm = new ManagerLogin();
+            ManagerOrders frm = new ManagerOrders();
             frm.Show();
         }
 
-        private void RegisterButton_Click(object sender, EventArgs e)
+        private void 物品管理ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            RegisterCustomer frm = new RegisterCustomer();
+            ManagerGood frm = new ManagerGood();
             frm.Show();
         }
 
-        private void LoginButton_Click(object sender, EventArgs e)
+        private void 修改密码ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            LoginCustomer frm = new LoginCustomer();
+            ManagerPwdAdjust frm = new ManagerPwdAdjust();
             frm.Show();
         }
     }
 }
+
+

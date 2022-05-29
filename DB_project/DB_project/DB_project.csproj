@@ -46,16 +46,97 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LoginCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginCustomer.Designer.cs">
+      <DependentUpon>LoginCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterCustomer.Designer.cs">
+      <DependentUpon>RegisterCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManagerGood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerGood.Designer.cs">
+      <DependentUpon>ManagerGood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerLogin.Designer.cs">
+      <DependentUpon>ManagerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerManage.Designer.cs">
+      <DependentUpon>ManagerManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerOrders.Designer.cs">
+      <DependentUpon>ManagerOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerPwdAdjust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerPwdAdjust.Designer.cs">
+      <DependentUpon>ManagerPwdAdjust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerRegister.Designer.cs">
+      <DependentUpon>ManagerRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerRegisterAndLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerRegisterAndLogin.Designer.cs">
+      <DependentUpon>ManagerRegisterAndLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LoginCustomer.resx">
+      <DependentUpon>LoginCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterCustomer.resx">
+      <DependentUpon>RegisterCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerGood.resx">
+      <DependentUpon>ManagerGood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerLogin.resx">
+      <DependentUpon>ManagerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerManage.resx">
+      <DependentUpon>ManagerManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerOrders.resx">
+      <DependentUpon>ManagerOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerPwdAdjust.resx">
+      <DependentUpon>ManagerPwdAdjust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerRegister.resx">
+      <DependentUpon>ManagerRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerRegisterAndLogin.resx">
+      <DependentUpon>ManagerRegisterAndLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
